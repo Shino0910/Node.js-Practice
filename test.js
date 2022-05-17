@@ -1,8 +1,11 @@
-var a=1
-var b=2
-var c=3
+var a =1
+var b =2
 
-console.log(a)
-console.log(b)
 
-console.log(c)
+var c =5
+
+
+exports.data =2 
+exports.bark =function(){
+    return "Bark !!"
+}
